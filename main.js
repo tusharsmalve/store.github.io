@@ -34,15 +34,15 @@ $(document).ready(function () {
               );
   }
 
-//   $("#slider").hover(
-//         function () {
-//               clearTimeout(aninInterval);
-//               $("#slider li").eq(0).stop();
-//         },
-//         function () {
-//               animateProducts();
-//         }
-//   );
+  $("#slider").hover(
+        function () {
+              clearTimeout(aninInterval);
+              $("#slider li").eq(0).stop();
+        },
+        function () {
+              animateProducts();
+        }
+  );
 
 
 });
