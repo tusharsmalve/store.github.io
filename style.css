@@ -456,7 +456,7 @@ div{
 }
 
 #slider{
-    width: 100vw;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -464,6 +464,7 @@ ul {
     list-style: none;
     margin: 0px;
     padding: 0px;
+    overflow: hidden;
 }
 
 ul li {
