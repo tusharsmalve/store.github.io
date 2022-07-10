@@ -459,16 +459,16 @@ div{
 }
 
 #slider{
+    height: 280px;
     width: 100%;
     overflow: hidden;
-}
-
-ul {
     list-style: none;
     margin: 0px;
     padding: 0px;
+}
+
+.product_container{
     overflow: hidden;
-    width: 100%;
 }
 
 ul li {
@@ -477,12 +477,17 @@ ul li {
     white-space: nowrap;
 }
 
+
 ul li img {
     width: 100%;
 }
 
 ul li:hover {
     cursor: pointer;
+}
+
+.tooltip{
+    text-align: center;
 }
 
 hr {
