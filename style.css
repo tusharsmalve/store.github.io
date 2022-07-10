@@ -468,6 +468,7 @@ ul {
     margin: 0px;
     padding: 0px;
     overflow: hidden;
+    width: 100%;
 }
 
 ul li {
